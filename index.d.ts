@@ -151,4 +151,8 @@ declare namespace pc {
     export interface Entity {
         tween: (target: TweenTarget, options?: TweenOptions) => Tween;
     }
+
+    export interface App {
+        tween: (target: TweenTarget, options?: TweenOptions) => Tween;
+    }
 }
